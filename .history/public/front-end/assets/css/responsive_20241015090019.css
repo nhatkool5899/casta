@@ -1,0 +1,391 @@
+
+.container{
+    margin: auto;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .container{
+        max-width: 1320px;
+    }
+}
+
+
+@media screen and (max-width: 1400px){
+    .inner-head{
+        gap: 14px;
+    }
+
+    .inner-title{
+        font-size: 20px;
+        width: calc(100% - 74px);
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    .navigation{
+        display: none;
+    }
+
+    .nav-mobile{
+        display: flex;
+    }
+
+    .header-button{
+        display: none;
+    }
+
+    .inner-list{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .services-list{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .ft-body{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ft-left{
+        width: 100%;
+        padding-right:0;
+    }
+
+    .ft-right{
+        width: 100%;
+    }
+
+    .menu-about{
+        flex-wrap: wrap;
+        gap: 10px 20px;
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .header-name{
+        display: none;
+    }
+
+    .ft-head-body{
+        flex-direction: column;
+        padding: 10px 0 20px;
+    }
+
+    .ft-head-link{
+        padding: 10px 0 16px;
+    }
+
+    .ft-head-link::after{
+        top: calc(50% - 4px);
+    }
+ 
+    .about-tab-item{
+        font-size: 16px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .sv-group-list{
+        grid-template-columns: 1fr;
+    }
+
+    .services-desc{
+        font-size: 16px;
+    }
+
+    .wrapper-details{
+        flex-direction: column;
+    }
+
+    .elementor-main{
+        width: 100%;
+    }
+
+    .elementor-sidebar{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .details-title h2{
+        font-size: 26px;
+    }
+
+    .news-elementor{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .related-item{
+        flex-direction: column;
+    }
+    
+    .related-image{
+        width: 100%;
+    }
+
+    .related-context{
+        width: 100%;
+    }
+
+    .ft-col-flex{
+        flex-direction: column;
+        gap: 0;
+        align-items: flex-start;
+    }
+
+    .customer-list{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header-logo{
+        width: 90px;
+    }
+
+    .clear-header{
+        height: 106px;
+    }
+
+    .ft-group{
+        flex-direction: column;
+    }
+
+    .ft-group-col.col-1, .ft-group-col.col-2, .ft-group-col.col-3{
+        width: 100%;
+    }
+    .about-tab{
+        flex-direction: column;
+    }
+    .about-tab-item{
+        width: 100%;
+    }
+
+    .wrapper-contact{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    .header-info{
+        font-size: 14px;
+        padding: 8px 0;
+        gap: 10px;
+    }
+
+    .header-info .header-info-item:first-child::after{
+        display: none;
+    }
+
+    .header-search-btn{
+        width: 38px;
+        height: 38px;
+        font-size: 15px;
+    }
+
+    .search-body-content{
+        padding: 0 10px;
+    }
+
+    .inner-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .news-next-slide, .news-prev-slide, .partners-next-slide, .partners-prev-slide{
+        position: relative;
+        transform: translateY(0) translateX(-5px);
+        left: 0;
+        right: 0;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .news, .partners{
+        text-align: center;
+    }
+
+    .ft-head-info{
+        display: none;
+    }
+
+    .ft-head-body{
+        padding: 10px 0;
+    }
+
+    .ft-head-link {
+        padding: 10px 0;
+    }
+
+    .ft-head-link::after {
+        top: calc(50% - 2px);
+    }
+
+    .ft-bot{
+        flex-direction: column;
+    }
+
+    .partners-swiper{
+        margin-bottom: 20px;
+    }
+
+    .info-item-context h3{
+        font-size: 13px;
+    }
+
+    .about-content{
+        padding: 10px;
+    }
+
+    .sv-group-image{
+        width: 120px;
+    }
+
+    .sv-group-context {
+        width: calc(100% - 134px);
+    }
+
+    .details-title .backs{
+        display: none;
+    }
+
+    .news-elementor{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+    .item-question-title .title{
+        max-width: 90%;
+        font-size: 22px;
+    }
+
+    .item-question .stt-icon{
+        font-size: 22px;
+        top: 2px;
+    }
+
+    .item-question{
+        min-height: 60px;
+    }
+
+    .details-title h2{
+        font-size: 20px;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .customer-list{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .banner-breadcrumbs{
+        bottom: 10px;
+    }
+
+    .breadcrumbs-title{
+        font-size: 20px;
+    }
+
+    .inner-icon{
+        width: 45px;
+        height: 45px;
+    }
+
+    .inner-title{
+        font-size: 18px;
+    }
+
+    .inner-head{
+        margin-bottom: 10px;
+    }
+
+    .inner-head::before{
+        bottom: -12px;
+    }
+
+    .inner-text{
+        padding-top: 10px;
+    }
+
+    .inner-item{
+        padding: 20px 30px;
+    }
+
+    .section{
+        padding: 30px 0;
+    }
+
+    .header-logo {
+        width: 80px;
+        padding: 4px 0;
+    }
+
+    .clear-header {
+        height: 101px;
+    }
+
+    .info-item-icon{
+        font-size: 14px;
+    }
+
+    .sv-group-name{
+        font-size: 15px;
+    }
+
+    .sv-group-desc{
+        font-size: 14px;
+    }
+
+    .sidebar-list{
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .services-item{
+        overflow: inherit;
+    }
+
+    .service-link{
+        bottom: -3px;
+        right: -3px;
+    }
+
+}
